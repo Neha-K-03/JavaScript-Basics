@@ -1,7 +1,7 @@
-alert(5 > 4);
-alert("apple" > "pineapple");
-alert("2" > "12");
-alert(undefined == null);
-alert(undefined === null);
-alert(null == "\n0\n");
-alert(null === +"\n0\n");
+alert(5 > 4);     //true
+alert("apple" > "pineapple");     //false
+alert("2" > "12");     //true
+alert(undefined == null);     //true
+alert(undefined === null);     //false
+alert(null == "\n0\n");     //false
+alert(null === +"\n0\n");     //false

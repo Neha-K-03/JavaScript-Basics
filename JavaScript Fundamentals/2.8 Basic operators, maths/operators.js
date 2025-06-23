@@ -41,4 +41,4 @@ undefined + 1    ->    Nan
 let a = prompt("First number?", 1);
 let b = prompt("Second number?", 2);
 
-alert(+a + +b);
+alert(+a + +b);     //3

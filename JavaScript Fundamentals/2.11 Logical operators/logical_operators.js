@@ -54,13 +54,13 @@ if(age < 14 || age > 90)
 
 /*
 TASK 8
-if(-1 || 0){
+if(-1 || 0) {
     alert("First");
 }
-if(-1 && 0){
+if(-1 && 0) {
     alert("Second");
 }
-if(null || -1 && 1){
+if(null || -1 && 1) {
     alert("Third");
 }
 
@@ -70,26 +70,26 @@ Ans: First, Third
 
 //TASK 9
 let username = prompt("Username", "");
-if(username === "Admin"){
+if(username === "Admin") {
     let password = prompt("Password", "");
 
-    if(password === "TheMaster"){
+    if(password === "TheMaster") {
         alert("Welcome!");
     }
 
-    else if(password === ""  || password === null){
+    else if(password === ""  || password === null) {
         alert("Canceled");
     }
 
-    else{
+    else {
         alert("Wrong password");
     }
 }
 
-else if(username === "" || username === null){
+else if(username === "" || username === null) {
     alert("Canceled");
 }
 
-else{
+else {
     alert("I don't know you");
 }

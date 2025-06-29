@@ -30,8 +30,8 @@ function minimum(a, b) {
 */
 
 
-/*
-TASK 4*/
+
+//TASK 4
 function power(x, n) {
     let result = 1;
     for(let i = 1; i <= n; i++) {

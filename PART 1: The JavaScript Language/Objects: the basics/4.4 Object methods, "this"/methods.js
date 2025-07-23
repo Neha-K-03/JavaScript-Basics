@@ -3,7 +3,7 @@ TASK 1
 An error.
 Here the value of "this" inside makeUser() is undefined,
 because it is called as a function,
-not as a method with"dot" syntax.
+not as a method with "dot" syntax.
 */
 
 

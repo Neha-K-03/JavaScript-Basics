@@ -1,3 +1,5 @@
+// TASK 1
+
 function camelize(str) {
     return str
         .split("-")     // splits "my-long-word" into array["my", "long", "word"]

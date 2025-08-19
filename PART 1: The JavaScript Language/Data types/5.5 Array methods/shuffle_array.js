@@ -26,3 +26,15 @@ for (let i = 0; i < 1000000; i++) {
 for (let key in count) {
     alert(`${key}: ${count[key]}`);
 }
+
+// Answer varies each time
+
+/*
+Ans:-
+123: 166470
+132: 166968
+213: 167108
+231: 166830
+312: 166267
+321: 166357
+*/

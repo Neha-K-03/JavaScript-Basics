@@ -1,4 +1,4 @@
-// TASK 1
+// TASK 2
 
 function factorial(n) {
     return n ? n * factorial(n - 1) : 1;

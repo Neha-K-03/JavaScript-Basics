@@ -14,7 +14,7 @@ function sumTo(n) {
 alert( sumTo(100) );     // 5050
 
 
-// using a recursion
+// using recursion
 function sumTo(n) {
     if (n == 1) return 1;
     return n + sumTo(n - 1);

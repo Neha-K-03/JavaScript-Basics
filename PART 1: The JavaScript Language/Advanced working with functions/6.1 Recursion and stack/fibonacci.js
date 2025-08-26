@@ -1,4 +1,4 @@
-// TASK 2
+// TASK 3
 
 function fib(n) {
     let a = 1;

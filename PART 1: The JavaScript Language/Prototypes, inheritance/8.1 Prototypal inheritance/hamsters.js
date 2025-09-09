@@ -20,7 +20,7 @@ let lazy = {
 
 // Speedy one found the food
 speedy.eat("apple");
-alert( speedy.stomach ); // apple
+alert( speedy.stomach );     // apple
 
 // Lazy one's stomach is empty
-alert( lazy.stomach ); // <nothing>
+alert( lazy.stomach );     // <nothing>

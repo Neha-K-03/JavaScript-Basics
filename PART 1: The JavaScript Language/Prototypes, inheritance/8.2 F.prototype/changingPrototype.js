@@ -17,6 +17,7 @@ alert( rabbit.eats );
 // but it does not affect the existing ones.
 
 
+/*
 // Second one
 function Rabbit() {}
 Rabbit.prototype = {
@@ -72,3 +73,4 @@ alert( rabbit.eats );
 // The answer is undefined.
 // The property "eats" is deleted from the prototype, 
 // it doesn’t exist any more.
+*/
